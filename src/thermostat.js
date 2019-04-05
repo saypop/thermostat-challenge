@@ -34,7 +34,7 @@ Thermostat.prototype.psmSwitch = function () {
     this.psm = 'on'
     if (this.temperature > 25) {
       this.temperature = 25;
-    }; 
+    };
   }
 };
 
@@ -51,3 +51,5 @@ Thermostat.prototype.usage = function () {
   return 'low-usage'
   }
 }
+
+var thermostat = new Thermostat();
